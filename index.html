@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason Banfield — Creative Director</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+</head>
+<body>
+
+  <div class="site-video-overlay" aria-hidden="true">
+    <video autoplay muted loop playsinline preload="auto">
+      <source src="assets/video/Particles.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- ── NAV ── -->
+  <nav id="main-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">Jason Banfield</a>
+
+      <div class="nav-right" id="nav-right">
+        <a class="nav-link" href="about.html">ABOUT ME</a>
+        <a class="nav-link" href="work.html">Work</a>
+        <a class="nav-cta" href="#contact">Let's Talk</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section class="hero" aria-label="Hero">
+      <div class="container">
+        <div class="hero-inner">
+
+          <div class="hero-left" data-reveal>
+            <div class="section-label hero-label">
+              <div class="dot" aria-hidden="true"></div>
+              <span>Creative Director</span>
+            </div>
+            <h1 class="hero-heading">
+              <span class="white">Bold Visuals.</span><br>
+              <span class="blue">Caribbean</span><br>
+              <span class="white">Stories.</span>
+            </h1>
+            <div class="hero-divider" role="separator"></div>
+            <p class="hero-sub">Trinidad-based visual creative specialising in carnival, advertising &amp; brand storytelling.</p>
+            <div class="hero-btns">
+              <a class="btn-primary" href="about.html">ABOUT ME</a>
+            </div>
+          </div>
+
+          <div class="hero-right" data-reveal data-reveal-delay="0.2" aria-hidden="true">
+            <img class="hero-image" src="assets/images/2024-09-10_16-45-03_UTC.png" alt="" loading="eager">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PORTFOLIO CAROUSEL ── -->
+    <section class="portfolio" id="work" aria-label="Portfolio work">
+      <div class="container">
+        <div class="portfolio-header" data-reveal>
+          <div class="section-label">
+            <div class="dot" aria-hidden="true"></div>
+            <span>Work</span>
+          </div>
+          <div class="scroll-hint" aria-hidden="true">
+            <span>Slide to explore</span>
+          </div>
+        </div>
+
+        <div class="work-top-card">
+          <div class="card card-wide" role="listitem">
+            <div class="swiper wide-image-swiper" id="wide-image-swiper" aria-label="Wide work images">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img class="wide-image-media" src="assets/images/wide-01.jpg" alt="Wide portfolio image 1" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img class="wide-image-media" src="assets/images/wide-02.jpg" alt="Wide portfolio image 2" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img class="wide-image-media" src="assets/images/wide-03.jpg" alt="Wide portfolio image 3" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img class="wide-image-media" src="assets/images/wide-04.jpg" alt="Wide portfolio image 4" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img class="wide-image-media" src="assets/images/wide-05.jpg" alt="Wide portfolio image 5" loading="lazy">
+                </div>
+                <div class="swiper-slide">
+                  <img class="wide-image-media" src="assets/images/wide-06.jpg" alt="Wide portfolio image 6" loading="lazy">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-nav swiper-nav-wide" aria-label="Wide card navigation">
+              <button class="swiper-nav-btn swiper-nav-prev" id="wide-prev" aria-label="Previous wide image">←</button>
+              <button class="swiper-nav-btn swiper-nav-next" id="wide-next" aria-label="Next wide image">→</button>
+            </div>
+            <span class="wide-card-badge">3240 × 1350</span>
+          </div>
+        </div>
+
+        <div class="carousel-outer" id="carousel-outer">
+          <div class="swiper portfolio-swiper" id="work-swiper" aria-label="Portfolio slides">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-02-11_21-32-11_UTC_2.jpg" alt="Feed portfolio image 1" loading="lazy">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-02-15_20-18-40_UTC.jpg" alt="Feed portfolio image 2" loading="lazy">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-03-01_23-01-08_UTC.jpg" alt="Feed portfolio image 3" loading="lazy">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-03-02_23-32-23_UTC.jpg" alt="Feed portfolio image 4" loading="lazy">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-03-24_23-03-42_UTC.jpg" alt="Feed portfolio image 5" loading="lazy">
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-nav swiper-nav-work" aria-label="Work row navigation">
+            <button class="swiper-nav-btn swiper-nav-prev" id="work-prev" aria-label="Previous work slides">←</button>
+            <button class="swiper-nav-btn swiper-nav-next" id="work-next" aria-label="Next work slides">→</button>
+          </div>
+        </div>
+
+        <div class="work-secondary-grid" aria-label="Additional work cards">
+          <div class="work-secondary-row swiper" id="secondary-row-one">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide secondary-slide secondary-slide-1080">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-07-09_01-29-48_UTC_2.jpg" alt="Feed portfolio image 6" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide secondary-slide secondary-slide-2160">
+                <div class="card card-feed card-2160" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-03-26_16-59-07_UTC_2.jpg" alt="Feed portfolio image 7" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide secondary-slide secondary-slide-1080">
+                <div class="card card-feed" role="listitem">
+                  <video class="card-media" autoplay muted loop playsinline preload="metadata" aria-label="Feed portfolio video 1">
+                    <source src="assets/images/Feed/2025-04-25_01-49-16_UTC.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-nav swiper-nav-secondary" aria-label="Additional row one navigation">
+              <button class="swiper-nav-btn swiper-nav-prev" id="secondary-row-one-prev" aria-label="Previous row one slides">←</button>
+              <button class="swiper-nav-btn swiper-nav-next" id="secondary-row-one-next" aria-label="Next row one slides">→</button>
+            </div>
+          </div>
+
+          <div class="work-secondary-row swiper" id="secondary-row-two">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide secondary-slide secondary-slide-1080">
+                <div class="card card-feed" role="listitem">
+                  <video class="card-media" autoplay muted loop playsinline preload="metadata" aria-label="Feed portfolio video 2">
+                    <source src="assets/images/Feed/2026-01-29_01-51-21_UTC_3.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-slide secondary-slide secondary-slide-2160">
+                <div class="card card-feed card-2160" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2025-03-06_22-07-02_UTC.jpg" alt="Feed portfolio image 8" loading="lazy">
+                </div>
+              </div>
+              <div class="swiper-slide secondary-slide secondary-slide-1080">
+                <div class="card card-feed" role="listitem">
+                  <img class="card-media" src="assets/images/Feed/2026-01-13_00-53-26_UTC_2.jpg" alt="Feed portfolio image 9" loading="lazy">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-nav swiper-nav-secondary" aria-label="Additional row two navigation">
+              <button class="swiper-nav-btn swiper-nav-prev" id="secondary-row-two-prev" aria-label="Previous row two slides">←</button>
+              <button class="swiper-nav-btn swiper-nav-next" id="secondary-row-two-next" aria-label="Next row two slides">→</button>
+            </div>
+          </div>
+
+          <div class="work-secondary-row-1080">
+            <div class="card card-feed" role="listitem">
+              <img class="card-media" src="assets/images/Feed/2022-10-11_00-11-17_UTC.jpg" alt="Feed portfolio image 10" loading="lazy">
+            </div>
+            <div class="card card-feed" role="listitem">
+              <img class="card-media" src="assets/images/Feed/2025-03-26_23-10-20_UTC.jpg" alt="Feed portfolio image 11" loading="lazy">
+            </div>
+            <div class="card card-feed" role="listitem">
+              <img class="card-media" src="assets/images/Feed/2025-04-29_23-50-19_UTC_1.jpg" alt="Feed portfolio image 12" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-footer">
+          <a class="btn-outline" href="work.html">View All Work</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── TYPE BANNER ── -->
+    <section class="type-banner" aria-label="Design philosophy">
+      <div class="container">
+        <div class="type-banner-inner">
+          <div class="banner-left">
+            <div class="section-label banner-label" data-reveal>
+              <div class="dot" aria-hidden="true"></div>
+              <span>The Philosophy</span>
+            </div>
+            <div data-reveal>
+              <span class="cursive-text" aria-hidden="true">Changing the World</span>
+              <h2 class="banner-heading">One Pixel at a Time.</h2>
+            </div>
+            <div class="banner-sub-row" data-reveal>
+              <span class="banner-sub-text">Banfield Advertising Ltd &nbsp;·&nbsp; Trinidad &amp; Tobago &nbsp;·&nbsp; Caribbean</span>
+            </div>
+          </div>
+          <div class="banner-right" data-reveal data-reveal-delay="0.2" aria-hidden="true">
+            <img class="phone-scroll-image" src="assets/images/Phone-scroll.png" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA STRIP ── -->
+    <section class="cta-strip" id="contact" aria-label="Contact call to action">
+      <div class="container">
+        <div class="cta-inner" data-reveal>
+          <div>
+            <div class="cta-eyebrow">Available for projects across the Caribbean</div>
+            <div class="cta-heading" aria-label="Let's create something bold.">
+              <span class="blue">Let's create</span><br>
+              <span class="dark">something bold.</span>
+            </div>
+            <div class="cta-sub">Drop a message and let's get to work.</div>
+          </div>
+          <button class="cta-btn" type="button">Get in Touch</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a class="footer-logo" href="#">Jason Banfield</a>
+          <div class="footer-company">Banfield Advertising Ltd</div>
+        </div>
+        <div class="footer-center">
+          <div>© 2026 Jason Banfield. All rights reserved.</div>
+          <div class="footer-sub">Trinidad &amp; Tobago &nbsp;·&nbsp; Caribbean</div>
+        </div>
+        <div class="footer-socials">
+          <a class="social-btn" href="https://www.instagram.com/banfield.advertising/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+          <a class="social-btn" href="https://www.behance.net/banfield_design" target="_blank" rel="noopener noreferrer" aria-label="Behance">Be</a>
+          <a class="social-btn" href="https://tt.linkedin.com/in/jason-banfield-4b953190" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">Li</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <audio id="site-audio" loop autoplay preload="metadata">
+    <source src="assets/audio/Kes - Fallin 2015 Soca (Official Audio) - JulianspromosTV Soca Music (128k).mp3" type="audio/mpeg">
+  </audio>
+  <button class="audio-toggle is-on" id="audio-toggle" type="button" aria-pressed="true" aria-label="Mute background audio">Sound On</button>
+
+</body>
+</html>
